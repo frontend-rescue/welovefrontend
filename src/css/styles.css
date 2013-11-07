@@ -1,24 +1,27 @@
 body {
-    font: 100%/1.4em "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     color: #333333;
-    text-align: center;
     background-color: rgba(0,0,0,.1);
+    font: 100%/1.4em "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-align: center;
     -webkit-text-size-adjust: none;
 }
 
-img {
-    max-width: 100%;
-    vertical-align: middle;
+.heart {
+    color: #c0392b;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 476px;
+    margin-top: .3em;
 }
-
 .main-header h1 {
+    color: #FFF;
     font-size: 4em;
     font-weight: normal;
     line-height: 1.2em;
+    margin: 0 auto;
     padding: 10px 20px;
-    color: #FFF;
+    position: relative;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
     width: 60%;
-    margin: 0 auto;
-    position: relative;
 }
