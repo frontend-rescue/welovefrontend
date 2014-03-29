@@ -1,0 +1,29 @@
+{
+    "name": "welove-frontend",
+    "version": "0.1.0",
+    "description": "We love front-end development.",
+    "author": {
+      "name": "Guille Paz",
+      "email": "guille87paz@gmail.com",
+      "url": "http://pazguille.me"
+    },
+    "maintainers": [
+      {
+        "name": "Mateus Ortiz",
+        "email": "mateus.prado@ig.com.br"
+      }
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/frontend-rescue/welovefrontend"
+    },
+    "bugs": {
+        "url": "https://github.com/frontend-rescue/welovefrontend/issues"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-connect": "~0.5.0",
+        "grunt-cli": "~0.1.9"
+    }
+}
