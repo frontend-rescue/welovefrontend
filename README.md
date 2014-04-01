@@ -6,7 +6,7 @@ We love front-end development.
 
 ## Demo
 
-> [Check it live](http://welovefrontend.org).
+> [Check it live](mateusortiz.github.io/welovefrontend).
 
 ## Usage
 
