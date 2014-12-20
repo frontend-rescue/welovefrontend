@@ -16,4 +16,26 @@ h1 {
   font-weight: 500;
   font-size: 476px;
   margin-top: .3em;
+  -webkit-transform: scale(.9);
+  -moz-transform: scale(.9);
+  transform: scale(.9);
+  -webkit-animation: heart .5s infinite linear alternate-reverse;
+  -moz-animation: heart .5s infinite linear alternate-reverse;
+  animation: heart .5s infinite linear alternate-reverse;
+}
+
+@-webkit-keyframes heart {
+  to {
+    -webkit-transform: scale(1.2);
+  }
+}
+@-moz-keyframes heart {
+  to {
+    -moz-transform: scale(1.2);
+  }
+}
+@keyframes heart {
+  to {
+    transform: scale(1.2);
+  }
 }
